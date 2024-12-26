@@ -30,6 +30,7 @@ MoviesApp is an Android application built with modern development practices, lev
 
 The project is structured using **Clean Code Architecture** principles to ensure scalability and maintainability:
 
+```plaintext
 MovieDB/
 ├── data/                 # Handles data sources (network, local)
 │   ├── api/              # Contains Retrofit services for API communication
