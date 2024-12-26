@@ -30,4 +30,15 @@ MoviesApp is an Android application built with modern development practices, lev
 
 The project is structured using **Clean Code Architecture** principles to ensure scalability and maintainability:
 
-MoviesApp/ ├── data/ # Handles data sources (network, local) │ ├── api/ # Retrofit services │ ├── repository/ # Repositories for data abstraction │ └── models/ # Data models ├── domain/ # Business logic │ ├── usecases/ # Use cases for app logic │ └── models/ # Domain-specific models ├── presentation/ # UI layer │ ├── home/ # Home screen UI and logic │ ├── details/ # Detail screen UI and logic │ └── navigation/ # Navigation components └── utils/ # Utility classes and extensions
+MovieDB/
+├── data/                 # Handles data sources (network, local)
+│   ├── api/              # Contains Retrofit services for API communication
+│   ├── repository/       # Repositories for data abstraction and management
+├── domain/               # Contains business logic of the app
+│   ├── usecases/         # Use cases encapsulating app-specific logic
+│   └── models/           # Models representing domain-specific entities
+├── ui/                   # UI layer for the application
+│   ├── home/             # Components for the Home screen UI and logic
+│   ├── detail/           # Components for the Detail screen UI and logic
+│   └── more/             # Components for the Screen with Pagination List of Data
+└── utils/                # Utility classes and extensions
